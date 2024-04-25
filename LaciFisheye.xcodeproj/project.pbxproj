@@ -11,6 +11,8 @@
 		AE056B0E2BDA6CBF002435B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE056B0D2BDA6CBF002435B4 /* ContentView.swift */; };
 		AE056B102BDA6CC0002435B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE056B0F2BDA6CC0002435B4 /* Assets.xcassets */; };
 		AE056B142BDA6CC0002435B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE056B132BDA6CC0002435B4 /* Preview Assets.xcassets */; };
+		AE056B1B2BDA6E02002435B4 /* Laci.metal in Sources */ = {isa = PBXBuildFile; fileRef = AE056B1A2BDA6E02002435B4 /* Laci.metal */; };
+		AE056B1E2BDA6F4E002435B4 /* Transforms.metal in Sources */ = {isa = PBXBuildFile; fileRef = AE056B1D2BDA6F4E002435B4 /* Transforms.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,9 @@
 		AE056B0F2BDA6CC0002435B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE056B112BDA6CC0002435B4 /* LaciFisheye.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LaciFisheye.entitlements; sourceTree = "<group>"; };
 		AE056B132BDA6CC0002435B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE056B1A2BDA6E02002435B4 /* Laci.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Laci.metal; sourceTree = "<group>"; };
+		AE056B1C2BDA6F4E002435B4 /* Transforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transforms.h; sourceTree = "<group>"; };
+		AE056B1D2BDA6F4E002435B4 /* Transforms.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Transforms.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,9 @@
 				AE056B0F2BDA6CC0002435B4 /* Assets.xcassets */,
 				AE056B112BDA6CC0002435B4 /* LaciFisheye.entitlements */,
 				AE056B122BDA6CC0002435B4 /* Preview Content */,
+				AE056B1A2BDA6E02002435B4 /* Laci.metal */,
+				AE056B1C2BDA6F4E002435B4 /* Transforms.h */,
+				AE056B1D2BDA6F4E002435B4 /* Transforms.metal */,
 			);
 			path = LaciFisheye;
 			sourceTree = "<group>";
@@ -139,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE056B1E2BDA6F4E002435B4 /* Transforms.metal in Sources */,
+				AE056B1B2BDA6E02002435B4 /* Laci.metal in Sources */,
 				AE056B0E2BDA6CBF002435B4 /* ContentView.swift in Sources */,
 				AE056B0C2BDA6CBE002435B4 /* LaciFisheyeApp.swift in Sources */,
 			);
