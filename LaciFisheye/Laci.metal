@@ -44,7 +44,7 @@ PolarCoordinate polar(float2 p) {
   float rectExtentX;
   float rectExtentY;
   
-  if( abs(polarPosition.theta) < polar(float2(1,1)).theta || abs(polarPosition.theta) > polar(float2(-1,1)).theta ) {
+  if( int(ceil((polarPosition.theta + M_PI_4_F + M_PI_F) / M_PI_2_F)) % 2 == 1 ) {
     //left & right
     rectExtentX = 1;
     rectExtentY = tan(polarPosition.theta);
