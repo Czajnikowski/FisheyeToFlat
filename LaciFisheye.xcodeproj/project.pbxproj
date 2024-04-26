@@ -13,6 +13,7 @@
 		AE056B142BDA6CC0002435B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE056B132BDA6CC0002435B4 /* Preview Assets.xcassets */; };
 		AE056B1B2BDA6E02002435B4 /* Laci.metal in Sources */ = {isa = PBXBuildFile; fileRef = AE056B1A2BDA6E02002435B4 /* Laci.metal */; };
 		AE056B1E2BDA6F4E002435B4 /* Transforms.metal in Sources */ = {isa = PBXBuildFile; fileRef = AE056B1D2BDA6F4E002435B4 /* Transforms.metal */; };
+		AE056B202BDC0A75002435B4 /* Angle.metal in Sources */ = {isa = PBXBuildFile; fileRef = AE056B1F2BDC0A75002435B4 /* Angle.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		AE056B1A2BDA6E02002435B4 /* Laci.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Laci.metal; sourceTree = "<group>"; };
 		AE056B1C2BDA6F4E002435B4 /* Transforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transforms.h; sourceTree = "<group>"; };
 		AE056B1D2BDA6F4E002435B4 /* Transforms.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Transforms.metal; sourceTree = "<group>"; };
+		AE056B1F2BDC0A75002435B4 /* Angle.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Angle.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				AE056B1A2BDA6E02002435B4 /* Laci.metal */,
 				AE056B1C2BDA6F4E002435B4 /* Transforms.h */,
 				AE056B1D2BDA6F4E002435B4 /* Transforms.metal */,
+				AE056B1F2BDC0A75002435B4 /* Angle.metal */,
 			);
 			path = LaciFisheye;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE056B202BDC0A75002435B4 /* Angle.metal in Sources */,
 				AE056B1E2BDA6F4E002435B4 /* Transforms.metal in Sources */,
 				AE056B1B2BDA6E02002435B4 /* Laci.metal in Sources */,
 				AE056B0E2BDA6CBF002435B4 /* ContentView.swift in Sources */,

@@ -18,6 +18,7 @@ float3x3 translateY(float y);
 float3x3 translate(float2 xy);
 
 float2x2 scale(float2 s);
+float2x2 scaleX(float x);
 float2x2 scaleY(float y);
 
 float2 transform(float2 p, float3x3 matrix);
