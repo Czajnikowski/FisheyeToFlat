@@ -14,6 +14,7 @@
 		AE056B1B2BDA6E02002435B4 /* Laci.metal in Sources */ = {isa = PBXBuildFile; fileRef = AE056B1A2BDA6E02002435B4 /* Laci.metal */; };
 		AE056B1E2BDA6F4E002435B4 /* Transforms.metal in Sources */ = {isa = PBXBuildFile; fileRef = AE056B1D2BDA6F4E002435B4 /* Transforms.metal */; };
 		AE056B202BDC0A75002435B4 /* Angle.metal in Sources */ = {isa = PBXBuildFile; fileRef = AE056B1F2BDC0A75002435B4 /* Angle.metal */; };
+		AE056B232BDD0DE3002435B4 /* result.png in Resources */ = {isa = PBXBuildFile; fileRef = AE056B212BDD0DE3002435B4 /* result.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		AE056B1C2BDA6F4E002435B4 /* Transforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transforms.h; sourceTree = "<group>"; };
 		AE056B1D2BDA6F4E002435B4 /* Transforms.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Transforms.metal; sourceTree = "<group>"; };
 		AE056B1F2BDC0A75002435B4 /* Angle.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Angle.metal; sourceTree = "<group>"; };
+		AE056B212BDD0DE3002435B4 /* result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		AE056AFF2BDA6CBE002435B4 = {
 			isa = PBXGroup;
 			children = (
+				AE056B222BDD0DE3002435B4 /* Results */,
 				AE056B0A2BDA6CBE002435B4 /* LaciFisheye */,
 				AE056B092BDA6CBE002435B4 /* Products */,
 			);
@@ -78,6 +81,15 @@
 				AE056B132BDA6CC0002435B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE056B222BDD0DE3002435B4 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				AE056B212BDD0DE3002435B4 /* result.png */,
+			);
+			name = Results;
+			path = LaciFisheye/Results;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +152,7 @@
 			files = (
 				AE056B142BDA6CC0002435B4 /* Preview Assets.xcassets in Resources */,
 				AE056B102BDA6CC0002435B4 /* Assets.xcassets in Resources */,
+				AE056B232BDD0DE3002435B4 /* result.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

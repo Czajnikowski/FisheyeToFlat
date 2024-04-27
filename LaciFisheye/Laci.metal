@@ -41,22 +41,18 @@ PolarCoordinate polar(float2 p) {
   position.x /= aspectRatio;
   PolarCoordinate polarPosition = polar(position);
   
-  float rectExtentX;
-  float rectExtentY;
-  
-  if( int(ceil((polarPosition.theta + M_PI_4_F + M_PI_F) / M_PI_2_F)) % 2 == 1 ) {
+  float2 rectExtentPosition;
+  rectExtentPosition.x = 1;
+  if( int(ceil((polarPosition.theta + 1.25 * M_PI_F) / M_PI_2_F)) % 2 == 1 ) {
     //left & right
-    rectExtentX = 1;
-    rectExtentY = tan(polarPosition.theta);
+    rectExtentPosition.y = tan(polarPosition.theta);
   } else {
     //top & bottom
-    rectExtentY = 1;
-    rectExtentX = 1 / tan(polarPosition.theta);
+    rectExtentPosition.y = 1 / tan(polarPosition.theta);
   }
   
-  float2 rectExtentPosition = float2(rectExtentX, rectExtentY);
-  PolarCoordinate polarRectExtentPosition = polar(rectExtentPosition);
-  polarPosition.r /= polarRectExtentPosition.r;
+  float angleFraction = acos(1 - polarPosition.r / length(rectExtentPosition)) / M_PI_2_F;
+  polarPosition.r = angleFraction;
   
   position = polarPosition.cartesian();
   return image.sample(transform(position, inverse(normalize)));
